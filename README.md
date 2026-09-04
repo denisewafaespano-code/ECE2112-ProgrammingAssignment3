@@ -62,14 +62,14 @@ The goal for this programming problem is to use Boolean indexing to locate a spe
 toyota = cars.loc[(cars['Model'] == 'Toyota Corolla'),:]
 toyota
 ```
-The condition `cars.loc[(cars['Model'] == 'Toyota Corolla')` creates a Boolean indexing. Applying this inside `.loc[]` forces the DataFrame to filter out all `False` rows, and returns only to the record where the condition is `True`. The colon`:` tells that every column should be included in the final output. 
+Boolean indexing acts as a data filter. By writing `cars['Model'] == 'Toyota Corolla'`, the code checks every row in the Model column and isolates only the row that evaluates to true. 
 
 | | Model | mpg | cyl | disp | hp | drat | wt | qsec | vs | am | gear | carb |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | **19** | Toyota Corolla | 33.9 | 4 | 71.1 | 65 | 4.22 | 1.835 | 19.9 | 1 | 1 | 4 | 1 |
 
 
-Locating the 'Pontiac Firebird ' will be similar to the previous step. However, instead of a colon `:` for the columns, a specific list of column names to extract only `Model`, `mpg`, `hp`, and `wt`. 
+Locating the 'Pontiac Firebird' will be similar to the previous step. However, instead of a colon `:` for the columns, a specific list of column names to extract only `Model`, `mpg`, `hp`, and `wt`. 
 
 ```python
 pontiac = cars.loc[(cars['Model'] == 'Pontiac Firebird'), ['Model', 'mpg', 'hp', 'wt']]
@@ -103,6 +103,15 @@ print("Shape:", selected_cars.shape)
 ```
 As required by the programming assignment, checking the shape confirms the final DataFrame contains exactly three rows and five columns (3,5).
 
+<div style="border-bottom: 1px solid gray; margin-bottom: 5px;"></div>
+
+Thank you for reading!
+
+To see the main Python program for Programming Assignment 2, click this \ and download. Open on Jupyter Notebook, then run all cells. 
+
+**READ ME file Version History:**
+
+September 4, 2026 - Initial README output uploaded.
 
 
 
