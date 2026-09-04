@@ -6,7 +6,7 @@ The content of this repository contains Programming Assignment 3 for our course.
 
 **Objectives**
 
-By the end of this laboratory activity, the student should be able to load a CSV dataset into a Pandas DataFrame, select specific rows and columns, using both positional and label-based indexing, and filter records based on column conditions in order to successfully extract a well-defined subset of information without altering the original source data.
+By the end of this laboratory activity, the goal is be able to load a CSV dataset into a Pandas DataFrame, select specific rows and columns, using both positional and label-based indexing, and filter records based on column conditions in order to successfully extract a well-defined subset of information without altering the original source data.
 
 
 Before starting the problems, the required library must be imported and the dataset must be loaded into memory. The original values in the 'cars' dataframe must not be modified throughout the experiment.
