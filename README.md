@@ -107,7 +107,7 @@ As required by the programming assignment, checking the shape confirms the final
 
 Thank you for reading!
 
-To see the main Python program for Programming Assignment 2, click this \ and download. Open on Jupyter Notebook, then run all cells. 
+To see the main Python program for Programming Assignment 3, click this https://github.com/denisewafaespano-code/ECE2112-ProgrammingAssignment3.git and download. Open on Jupyter Notebook, then run all cells. 
 
 **READ ME file Version History:**
 
